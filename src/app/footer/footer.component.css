@@ -1,0 +1,34 @@
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed; /* Keep the footer fixed at the bottom */
+    bottom: 0; /* Position it at the bottom */
+    left: 0; /* Align it to the left */
+    width: 100%; /* Make it full-width */
+    z-index: 1000; /* Ensure it stays above other content */
+  }
+  
+  /* Footer social media links */
+  footer .social-media {
+    margin-top: 10px;
+  }
+  
+  footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer .social-media a:hover {
+    color: #1abc9c;
+  }
+  
+  /* Footer copyright text */
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }

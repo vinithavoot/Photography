@@ -1,0 +1,6 @@
+.blog {
+    padding: 40px;
+    text-align: center;
+    height: calc(100vh - 120px); 
+    background-color: orange;
+}

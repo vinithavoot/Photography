@@ -1,0 +1,46 @@
+.home {
+    display: flex;               /* Use flexbox for layout */
+    flex-direction: column;      /* Column layout */
+    justify-content: center;     /* Center content vertically */
+    align-items: center;         /* Center content horizontally */
+    height: calc(100vh - 120px); /* Fill space between header and footer (adjust 120px based on actual header/footer heights) */
+    background-color: #2da749;   /* Light background for home */
+    color: #333;                 /* Text color for the home section */
+    padding: 20px;               /* Padding for spacing */
+    text-align: center;          /* Center-align text */
+    box-sizing: border-box;      /* Include padding in height calculation */
+}
+
+h1 {
+    font-size: 2.5em; /* Increase font size for the main heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+p {
+    font-size: 1.2em; /* Font size for paragraph */
+    margin-bottom: 40px; /* Space below the paragraph */
+}
+
+.gallery {
+    margin-top: 20px; /* Space above the gallery */
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid layout */
+    gap: 10px; /* Space between images */
+}
+
+.image-grid img {
+    width: 100%; /* Make images responsive */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}body {
+    margin: 0;
+    color: red;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+

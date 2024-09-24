@@ -1,0 +1,24 @@
+.portfolio {
+    display: flex;               /* Use flexbox for layout */
+    flex-direction: column;      /* Column layout */
+    justify-content: center;     /* Center content vertically */
+    align-items: center;         /* Center content horizontally */
+    height: calc(100vh - 120px); /* Fill space between header and footer (adjust 120px based on actual header/footer heights) */
+    background-color: yellow;   /* Light background for home */
+    color: #333;                 /* Text color for the home section */
+    padding: 20px;               /* Padding for spacing */
+    text-align: center;          /* Center-align text */
+    box-sizing: border-box; 
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.portfolio-grid img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

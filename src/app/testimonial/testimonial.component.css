@@ -1,0 +1,13 @@
+.testimonials {
+    padding: 40px;
+    text-align: center;
+    height: calc(100vh - 120px); 
+    background-color:bisque
+    
+}
+
+.testimonial {
+    margin-bottom: 20px;
+    font-style: italic;
+    
+}
